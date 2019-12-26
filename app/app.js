@@ -16,7 +16,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('knu World!');
+  res.send('knu World!<table border="1"><tr><td>姓名</td><td>XX</td></tr><tr><td>學號</td><td>YY</td></tr><tr><td>地址</td><td>ZZ</td></tr></table>');
 });
 
 app.listen(3000, function () {
